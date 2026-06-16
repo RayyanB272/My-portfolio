@@ -7,7 +7,8 @@ export default function Projects() {
     desc: 'A multi-step checkout payment flow with real-time card validation, animated transitions, and a live card preview. Built with attention to UX and micro-interactions.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     accent: '#22C55E',
-    emoji: '✨'
+    emoji: '✨',
+    github: 'https://github.com/RayyanB272/Payment-Flow'
   };
 
   const grid = [
@@ -16,14 +17,16 @@ export default function Projects() {
       desc: 'Cinematic bookstore website with mood-based filtering, particle animations, and editorial dark theme.',
       tags: ['HTML', 'CSS'],
       accent: '#22C55E',
-      emoji: '📚'
+      emoji: '📚',
+      github: 'https://github.com/RayyanB272'
     },
     {
       name: 'HomePro Platform',
       desc: 'Pixel-perfect home services landing page built with full responsiveness across multiple sections.',
       tags: ['HTML', 'CSS', 'JavaScript'],
       accent: '#22D3EE',
-      emoji: '🏠'
+      emoji: '🏠',
+      github: 'https://github.com/RayyanB272/Home-Services'
     }
   ];
 

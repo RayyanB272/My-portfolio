@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Contact() {
   const socials = [
-    { icon: '⌥', label: 'GitHub', handle: 'github.com/rayyan', color: '#22C55E' },
-    { icon: '🔗', label: 'LinkedIn', handle: 'linkedin.com/in/rayyan', color: '#22D3EE' },
-    { icon: '✉️', label: 'Email', handle: 'hello@rayyan.dev', color: '#22C55E' },
+    { icon: '⌥', label: 'GitHub', handle: 'https://github.com/RayyanB272', color: '#22D3EE' },
+    { icon: '🔗', label: 'LinkedIn', handle: 'https://www.linkedin.com/in/rayyanbahij', color: '#22D3EE' },
+    { icon: '✉️', label: 'Email', handle: 'rayyanbahij@gmail.com', color: '#22D3EE' },
   ];
 
   return (
@@ -20,7 +20,14 @@ export default function Contact() {
             <div style={{ width: 46, height: 46, borderRadius: 13, background: `rgba(${s.color === '#22C55E' ? '34,197,94' : '34,211,238'},0.08)`, border: `1px solid ${s.color}28`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 20, flexShrink: 0 }}>{s.icon}</div>
             <div>
               <div style={{ fontWeight: 600, fontSize: 15, marginBottom: 3 }}>{s.label}</div>
-              <div style={{ color: s.color, fontSize: 13, fontFamily: "'JetBrains Mono', monospace" }}>{s.handle}</div>
+              <a 
+                href={s.label === 'Email' ? `mailto:${s.handle}` : s.handle}
+                target={s.label === 'Email' ? undefined : '_blank'}
+                rel={s.label === 'Email' ? undefined : 'noopener noreferrer'}
+                style={{ color: s.color, fontSize: 13, fontFamily: "'JetBrains Mono', monospace", textDecoration: 'none' }}
+              >
+                {s.handle}
+              </a>
             </div>
           </div>
         ))}

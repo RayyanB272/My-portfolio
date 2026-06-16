@@ -19,7 +19,40 @@ export default function ProjectCard({ proj }) {
         <h3 style={{ fontWeight: 700, fontSize: 21, marginBottom: 9, letterSpacing: '-0.015em' }}>{proj.name}</h3>
         <p style={{ color: '#64748B', fontSize: 14, lineHeight: 1.65, marginBottom: 22, flexGrow: 1 }}>{proj.desc}</p>
         <div style={{ display: 'flex', gap: 10, marginTop: 'auto' }}>
-          <button className="btn-ghost" style={{ padding: '9px 18px', borderRadius: 8, fontSize: 13 }}>GitHub ⌥</button>
+          {proj.github ? (
+            <a 
+              href={proj.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ 
+                padding: '9px 18px', 
+                borderRadius: 8, 
+                fontSize: 13, 
+                textDecoration: 'none',
+                display: 'inline-block',
+                border: '1px solid rgba(148,163,184,0.2)',
+                color: '#94A3B8',
+                backgroundColor: 'transparent',
+                cursor: 'pointer'
+              }}
+            >
+              GitHub ⌥
+            </a>
+          ) : (
+            <button 
+              className="btn-ghost" 
+              disabled
+              style={{ 
+                padding: '9px 18px', 
+                borderRadius: 8, 
+                fontSize: 13,
+                opacity: 0.5,
+                cursor: 'not-allowed'
+              }}
+            >
+              GitHub ⌥
+            </button>
+          )}
         </div>
       </div>
     </div>
