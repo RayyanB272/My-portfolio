@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDBA74" />
+      <stop offset="100%" stop-color="#422006" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" rx="32" fill="#1B1B1B" />
+  <rect x="60" y="72" width="680" height="336" rx="28" fill="url(#g2)" opacity="0.14" />
+  <path d="M160 144h480v264H160z" fill="rgba(255,255,255,0.07)" />
+  <path d="M170 160h460v28H170z" fill="#F8B05C" />
+  <path d="M170 210h380v22H170z" fill="#F8F1E5" opacity="0.75" />
+  <path d="M170 260h260v22H170z" fill="#F8F1E5" opacity="0.75" />
+  <path d="M170 310h220v22H170z" fill="#F8F1E5" opacity="0.75" />
+  <circle cx="620" cy="212" r="48" fill="#F8B05C" opacity="0.7" />
+  <text x="160" y="430" fill="#F8F1E5" font-family="Space Grotesk, sans-serif" font-size="48" font-weight="700">The Golden Shelf</text>
+</svg>

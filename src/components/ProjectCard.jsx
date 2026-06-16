@@ -3,11 +3,19 @@ import React from 'react';
 export default function ProjectCard({ proj }) {
   return (
     <div className="project-card" style={{ borderRadius: 18, display: 'flex', flexDirection: 'column', minHeight: 420 }}>
-      <div style={{ height: 170, background: `linear-gradient(135deg, rgba(15,61,46,0.5) 0%, #111827 100%)`, borderBottom: '1px solid rgba(34,197,94,0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ height: 170, background: `linear-gradient(135deg, rgba(15,61,46,0.5) 0%, #111827 100%)`, borderBottom: '1px solid rgba(34,197,94,0.08)', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, right: 0, width: '60%', height: '100%', background: `radial-gradient(circle at 80% 50%, rgba(${proj.accent === '#22C55E' ? '34,197,94' : '34,211,238'},0.07) 0%, transparent 70%)` }} />
-        <div style={{ width: 60, height: 60, borderRadius: 16, background: `rgba(${proj.accent === '#22C55E' ? '34,197,94' : '34,211,238'},0.1)`, border: `1px solid ${proj.accent}28`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 28 }}>
-          {proj.emoji}
-        </div>
+        {proj.cover ? (
+          <img
+            src={proj.cover}
+            alt={`${proj.name} cover`}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
+          />
+        ) : (
+          <div style={{ width: 60, height: 60, borderRadius: 16, background: `rgba(${proj.accent === '#22C55E' ? '34,197,94' : '34,211,238'},0.1)`, border: `1px solid ${proj.accent}28`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 28, position: 'relative', zIndex: 1 }}>
+            {proj.emoji}
+          </div>
+        )}
       </div>
 
       <div style={{ padding: 26, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>

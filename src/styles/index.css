@@ -60,9 +60,11 @@ body { background: #0A0A0A; }
 }
 .nav-link:hover { color: #22C55E; }
 .section-divider {
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, rgba(34, 197, 94, 0.2) 30%, rgba(34, 211, 238, 0.2) 70%, transparent 100%);
-  margin: 0;
+  width: 100%;
+  height: 2px;
+  margin: 36px 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(34, 197, 94, 0.28) 25%, rgba(34, 211, 238, 0.28) 75%, transparent 100%);
+  border-radius: 2px;
 }
 .tech-card {
   background: rgba(17, 24, 39, 0.5);

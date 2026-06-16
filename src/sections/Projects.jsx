@@ -7,7 +7,7 @@ export default function Projects() {
     desc: 'A multi-step checkout payment flow with real-time card validation, animated transitions, and a live card preview. Built with attention to UX and micro-interactions.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     accent: '#22C55E',
-    emoji: '✨',
+    cover: '/project-covers/checkout-flow.svg',
     github: 'https://github.com/RayyanB272/Payment-Flow'
   };
 
@@ -17,7 +17,7 @@ export default function Projects() {
       desc: 'Cinematic bookstore website with mood-based filtering, particle animations, and editorial dark theme.',
       tags: ['HTML', 'CSS'],
       accent: '#22C55E',
-      emoji: '📚',
+      cover: '/project-covers/golden-shelf.svg',
       github: 'https://github.com/RayyanB272'
     },
     {
@@ -25,7 +25,7 @@ export default function Projects() {
       desc: 'Pixel-perfect home services landing page built with full responsiveness across multiple sections.',
       tags: ['HTML', 'CSS', 'JavaScript'],
       accent: '#22D3EE',
-      emoji: '🏠',
+      cover: '/project-covers/homepro.svg',
       github: 'https://github.com/RayyanB272/Home-Services'
     }
   ];

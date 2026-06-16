@@ -7,7 +7,7 @@ export default function Hero() {
         <div>
           {/* availability badge removed per request */}
           <h1 style={{ fontWeight: 700, fontSize: 70, lineHeight: 1.02, letterSpacing: '-0.03em', marginBottom: 4 }}>Hi, I'm</h1>
-          <h1 className="gradient-text" style={{ fontWeight: 800, fontSize: 70, lineHeight: 1.02, letterSpacing: '-0.03em', marginBottom: 12 }}>Rayyan.</h1>
+          <h1 className="gradient-text" style={{ fontWeight: 800, fontSize: 70, lineHeight: 1.02, letterSpacing: '-0.03em', marginBottom: 12 }}>Rayyan Bahij.</h1>
           <h2 style={{ fontWeight: 600, fontSize: 42, lineHeight: 1.1, color: '#475569', letterSpacing: '-0.02em', marginBottom: 28 }}>Frontend and Mobile Developer</h2>
 
           <p style={{ fontSize: 17, color: '#64748B', lineHeight: 1.75, maxWidth: 500, marginBottom: 42 }}>
@@ -37,7 +37,7 @@ export default function Hero() {
 
             <div style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 13.5, lineHeight: 2.1 }}>
               <div><span style={{ color: '#A78BFA' }}>const</span> <span style={{ color: '#22D3EE' }}>developer</span> <span style={{ color: '#64748B' }}>=</span> <span style={{ color: '#22C55E' }}>{`{`}</span></div>
-              <div style={{ paddingLeft: 22 }}><span style={{ color: '#22D3EE' }}>name</span><span style={{ color: '#64748B' }}>:</span> <span style={{ color: '#FCD34D' }}>'Rayyan'</span><span style={{ color: '#64748B' }}>,</span></div>
+              <div style={{ paddingLeft: 22 }}><span style={{ color: '#22D3EE' }}>name</span><span style={{ color: '#64748B' }}>:</span> <span style={{ color: '#FCD34D' }}>'Rayyan Bahij'</span><span style={{ color: '#64748B' }}>,</span></div>
               <div style={{ paddingLeft: 22 }}><span style={{ color: '#22D3EE' }}>role</span><span style={{ color: '#64748B' }}>:</span> <span style={{ color: '#FCD34D' }}>'Frontend Dev'</span><span style={{ color: '#64748B' }}>,</span></div>
               <div style={{ paddingLeft: 22 }}><span style={{ color: '#22D3EE' }}>passion</span><span style={{ color: '#64748B' }}>:</span> <span style={{ color: '#FCD34D' }}>'Pixel‑perfect UI'</span><span style={{ color: '#64748B' }}>,</span></div>
               <div style={{ paddingLeft: 22 }}><span style={{ color: '#22D3EE' }}>available</span><span style={{ color: '#64748B' }}>:</span> <span style={{ color: '#22C55E' }}>true</span></div>
