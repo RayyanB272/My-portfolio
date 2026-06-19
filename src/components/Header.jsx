@@ -30,7 +30,6 @@ export default function Header() {
           ))}
         </div>
 
-        {/* header CTA removed per request */}
       </div>
     </nav>
   );
