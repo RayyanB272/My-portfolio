@@ -9,10 +9,8 @@ export default function About() {
           <p style={{ color: '#64748B', lineHeight: 1.8, marginBottom: 34, fontSize: 16 }}>I am continuously improving my skills and exploring new technologies to expand my knowledge. My goal is to become a skilled software developer who creates <span style={{ color: '#22D3EE' }}>modern, user-friendly, and efficient applications</span>.</p>
 
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 9, marginBottom: 36 }}>
-            {/* tags removed per request */}
           </div>
 
-          {/* Download Resume button removed per request */}
       </div>
     </section>
   );

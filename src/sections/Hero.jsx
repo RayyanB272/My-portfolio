@@ -5,7 +5,6 @@ export default function Hero() {
     <section style={{ backgroundColor: '#0A0A0A', minHeight: '100vh', position: 'relative', display: 'flex', alignItems: 'center', overflow: 'hidden' }}>
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: '0 52px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'center', width: '100%', paddingTop: 40, paddingBottom: 40 }}>
         <div>
-          {/* availability badge removed per request */}
           <h1 style={{ fontWeight: 700, fontSize: 70, lineHeight: 1.02, letterSpacing: '-0.03em', marginBottom: 4 }}>Hi, I'm</h1>
           <h1 className="gradient-text" style={{ fontWeight: 800, fontSize: 70, lineHeight: 1.02, letterSpacing: '-0.03em', marginBottom: 12 }}>Rayyan Bahij.</h1>
           <h2 style={{ fontWeight: 600, fontSize: 42, lineHeight: 1.1, color: '#475569', letterSpacing: '-0.02em', marginBottom: 28 }}>Frontend and Mobile Developer</h2>
@@ -19,7 +18,6 @@ export default function Hero() {
             <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="btn-secondary" style={{ padding: '15px 30px', borderRadius: 11, fontSize: 15 }}>Contact Me</button>
           </div>
 
-          {/* stats section removed per request */}
         </div>
 
         <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center', height: 520 }}>
@@ -50,11 +48,8 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* floating tech tags removed per request */}
         </div>
       </div>
-
-      {/* scroll indicator removed per request */}
     </section>
   );
 }
