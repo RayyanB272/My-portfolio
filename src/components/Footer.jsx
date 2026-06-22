@@ -16,7 +16,7 @@ export default function Footer() {
         </p>
 
         <div style={{ display: 'flex', gap: 24 }}>
-          {['GitHub', 'LinkedIn', 'Twitter'].map(s => (
+          {['GitHub', 'LinkedIn'].map(s => (
             <span key={s} style={{ color: '#374151', fontSize: 13, cursor: 'pointer', fontWeight: 500 }}>{s}</span>
           ))}
         </div>
