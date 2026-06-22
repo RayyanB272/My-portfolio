@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
 
         <p style={{ color: '#374151', fontSize: 13, fontFamily: "'JetBrains Mono', monospace" }}>
-          © 2025 Rayyan · Crafted with <span style={{ color: '#22C55E' }}>precision</span> & <span style={{ color: '#22D3EE' }}>passion</span>
+          © 2026 Rayyan · Crafted with <span style={{ color: '#22C55E' }}>precision</span> & <span style={{ color: '#22D3EE' }}>passion</span>
         </p>
 
         <div style={{ display: 'flex', gap: 24 }}>
