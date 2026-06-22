@@ -23,7 +23,7 @@ export default function Projects() {
     {
       name: 'HomePro Platform',
       desc: 'Pixel-perfect home services landing page built with full responsiveness across multiple sections.',
-      tags: ['HTML', 'CSS', 'JavaScript'],
+      tags: ['HTML', 'CSS'],
       accent: '#22D3EE',
       cover: '/project-covers/homepro.svg',
       github: 'https://github.com/RayyanB272/Home-Services'
